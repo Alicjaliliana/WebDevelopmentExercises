@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Arvo';
+
+#board {
+	background-color: #fff3e3;
+	border-radius: 25px;
+	height: 750px;
+	width: 750px;
+	border: solid 50px #fff3e3;
+	position: relative;
+	margin: auto;
+}
+
+.tile {
+	height: 65px;
+	width: 65px;
+	border-radius: 15px;
+	margin: 5px;
+	display: inline;
+	position: absolute;
+}
+.active-tile {
+	padding: 7.5px;
+}
+.darkblue {
+	background-color: #262b53;
+}
+.violet {
+	background-color: #6d5a7f ;
+}
+.rose {
+	background-color: #ae7182 ;
+}
+.peach {
+	background-color: #ffb958;
+}
+.pink {
+	background-color: #fd82b1;
+}
+.green {
+	background-color: #3fac00;
+}
