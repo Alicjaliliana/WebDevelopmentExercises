@@ -1,0 +1,11 @@
+"3+ line" - line of three or more the same elements
+"Possible change" - two clicked elements are next to each other. After a change of their possition one of them creates 3+ line.
+
+
+1. Create a board.
+2. Create random elements (tiles) on a board.
+3. Check if tiles create 3+ line (the correct arranegment). If not - go to 5.
+4. Delete the 3+ line. The elements above move down. In place of elements in a first row the new random elements. Go to 3.
+5. A mouse click on a element causes a change of its appearance. (There can be just one clicked element.)
+6. A mouse click on a second element causes a check whether a change is possible. If so - go to 4.
+7. If not - the active elements change to its original appearance.

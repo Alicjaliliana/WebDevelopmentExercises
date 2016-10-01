@@ -1,0 +1,3 @@
+The project is a 3-in-row type game application. It's basic assumption is to create balanced mix of JavaScript performance with simple and pleasant appearance.
+
+The main rule of the game is to create a line of three or more the same elements.
