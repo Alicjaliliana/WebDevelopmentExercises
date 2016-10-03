@@ -1,3 +1,26 @@
-The project is a 3-in-row type game application. It's basic assumption is to create balanced mix of JavaScript performance with simple and pleasant appearance.
+Board - a container on which the whole game is played.
 
-The main rule of the game is to create a line of three or more the same elements.
+Board has a playing area, limit area, button area and acoring area.
+
+Playing area - elements called tiles. Tiles are placed in rows and columns. They have types. Each types has a colour.
+
+Limit area - a division with a number representing a limit (of moves or a time)
+
+Scoring area - a division with a number representing score. 
+
+Button area - a division contains button with selection of game's end.
+
+Creating board - creating all the areas. On a playing area the tiles are created in a random arrangement (random type of tile).
+
+The arrangement is incorrect when there is a line of at least three elements of the same type in a row or column (3+ line) and it wasn't created by the player.
+
+On tiles can be performed actions.
+
+Tile can be selected. The first tile selected by mouse click changes its appearance. If he second tile was selected under some conditions then it causes changing places of selected tiles. 
+
+The special conditions to changing places of tiles: 
+		1) selected tiles were next to each other
+	and 2) after the change one of the tiles creates 3+ line.
+	
+Changing places means that the first tile takes place (position in columns and rows) of the second one and the second one takes place of the first.
+
