@@ -4,3 +4,23 @@
 4. make move
 5. check if game over. (no -> 4.)
 6. game over
+
+
+
+Create Board
+1.create container for tiles
+2. set up the amount of rows and columns
+3. check if amount of created rows is not higher than the set up amount (yes -> go to 7)
+4. create new row
+5. create tile on a position in next column
+6. check if the line of tiles is long as the amount of columns. (no -> go to 5; yes -> go to );
+7. stop
+
+
+
+
+
+Create tiles
+1. randomly set up a type of tile
+2.
+3. 
