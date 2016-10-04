@@ -8,13 +8,10 @@
 
 
 Create Board
-1.create container for tiles
-2. set up the amount of rows and columns
-3. check if amount of created rows is not higher than the set up amount (yes -> go to 7)
-4. create new row
-5. create tile on a position in next column
-6. check if the line of tiles is long as the amount of columns. (no -> go to 5; yes -> go to );
-7. stop
+1. create tiles
+2. check if there is any 3+ line (no -> 4)
+3. Score. Go to 2.
+4. End
 
 
 
