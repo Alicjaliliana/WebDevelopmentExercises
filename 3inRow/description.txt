@@ -1,53 +1,27 @@
 Board has tiles and gives them a place. 
 
-Tile is an object. It has types. Each types has a different colour.
-
-There are seven types (and their colours): 
+Tile is an object. It has type. Tile has a colour.
 
 The place of tile is made of two coordinates (x,y). Coordinates relate to rows and columns from board.
 
-The points is a number of a game progress.
+The points is a number indicating a game progress.
 
 Player can gain points in process of scoring.
 
-Scoring is a process of removing a 3+ line. 
+Scoring is an automatic process of removing a 3+ line. 
 
 3+ line is a line that contains 3-5 tiles of the same elements.
 
-There are 4 phases of the game :	A) waiting for a moves
+Game turn consist of 4 phases  :	A) waiting for a moves
 									B) move
 									C) Scoring
 									D) checking of the ending of a game
 					
-The end of the game is specified by no ability of move or gaining a certain number of points.				
+There are two ways of ending the game: there is no available move or a number of gained points is higher than a number of require points.
 
 A move is a swap of places of two tiles.
 
-The condition of a move is that two tiles takes place next to each other and after that one of the tile make a 3+ line.
+The condition of a move is that two adjacent tiles in the same row or column and after that one of the tile make a 3+ line.
 
 
-************************************************************
-Board - a container on which the whole game is played.
-
-Playing area - elements called tiles. Tiles are placed in rows and columns. They have types. Each types has a colour.
-
-Limit area - a division with a number representing a limit (of moves or a time)
-
-Scoring area - a division with a number representing score. 
-
-Button area - a division contains button with selection of game's end.
-
-Creating board - creating all the areas. On a playing area the tiles are created in a random arrangement (random type of tile).
-
-The arrangement is incorrect when there is a line of at least three elements of the same type in a row or column (3+ line) and it wasn't created by the player.
-
-On tiles can be performed actions.
-
-Tile can be selected. The first tile selected by mouse click changes its appearance. If he second tile was selected under some conditions then it causes changing places of selected tiles. 
-
-The special conditions to changing places of tiles: 
-		1) selected tiles were next to each other
-	and 2) after the change one of the tiles creates 3+ line.
-	
-Changing places means that the first tile takes place (position in columns and rows) of the second one and the second one takes place of the first.
 
