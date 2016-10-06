@@ -5,16 +5,13 @@
 5. check if game over. (no -> 4.)
 6. game over
 
-
+||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 Create Board
 1. create tiles
 2. check if there is any 3+ line (no -> 4)
 3. Score. Go to 2.
 4. End
-
-
-
 
 
 Create tiles

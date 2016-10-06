@@ -1,6 +1,33 @@
-Board - a container on which the whole game is played.
+Board has tiles and gives them a place. 
 
-Board has a playing area, limit area, button area and acoring area.
+Tile is an object. It has types. Each types has a different colour.
+
+There are seven types (and their colours): 
+
+The place of tile is made of two coordinates (x,y). Coordinates relate to rows and columns from board.
+
+The points is a number of a game progress.
+
+Player can gain points in process of scoring.
+
+Scoring is a process of removing a 3+ line. 
+
+3+ line is a line that contains 3-5 tiles of the same elements.
+
+There are 4 phases of the game :	A) waiting for a moves
+									B) move
+									C) Scoring
+									D) checking of the ending of a game
+					
+The end of the game is specified by no ability of move or gaining a certain number of points.				
+
+A move is a swap of places of two tiles.
+
+The condition of a move is that two tiles takes place next to each other and after that one of the tile make a 3+ line.
+
+
+************************************************************
+Board - a container on which the whole game is played.
 
 Playing area - elements called tiles. Tiles are placed in rows and columns. They have types. Each types has a colour.
 
