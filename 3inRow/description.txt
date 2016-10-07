@@ -4,7 +4,7 @@ Tile is an object. It has type. Tile has a colour.
 
 The place of tile is made of two coordinates (x,y). Coordinates relate to rows and columns from board.
 
-The points is a number indicating a game progress.
+The points are an arbitrary number indicating a game progress.
 
 Player can gain points in process of scoring.
 
